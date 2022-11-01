@@ -1,0 +1,12 @@
+var eid=101;
+var $ename="chandan";
+var brand_Name="puma";
+var rating=2;
+var available=true;
+var size=[12,13,14];
+console.log(eid);
+console.log($ename);
+console.log(brand_Name);
+console.log(rating);
+console.log(available);
+console.log(size);
