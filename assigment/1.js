@@ -19,3 +19,4 @@ do{
     i++
 }
 while(i<=10)
+//do while loop
