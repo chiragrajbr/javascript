@@ -2,8 +2,8 @@ let a=new Date()
 console.log(a)
 //to execute date
 
-let today=a.getDate()
-console.log(today)
+let date=a.getDate()
+console.log(date)
 //to execute only date
 
 let month=a.getMonth()+1
