@@ -21,3 +21,11 @@ function z(caps){
 
 }
 console.log(z("banglore"))
+
+//capitalizing whole letter
+var a="prostack academy"
+console.log(a.toUpperCase())
+
+//capitalizing first letter
+var b="wipro"
+console.log(b.charAt(0,1).toUpperCase()+b.substr(1))
