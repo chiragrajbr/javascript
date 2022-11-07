@@ -1,5 +1,6 @@
 function form_validation() {
     var sn=document.getElementById("sn").value
+    var fn=document.getElementById("fn").value
     
 
     if (sn==""){
@@ -7,3 +8,7 @@ function form_validation() {
     }
     return false
 }
+
+    
+    
+
