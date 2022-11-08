@@ -1,0 +1,44 @@
+<!----form validation with alert messages-->
+<html>
+    <head>
+        <script>
+            function form(){
+                let a=document.getElementById("name").value
+                let b=document.getElementById("pass").value
+                if (a==  ""){
+                document.getElementById("alrt").innerHTML="enter your name"
+                }
+                else
+                if(a.length<=5){
+                    document.getElementById("alrt").innerHTML="name must be more than 5 char"
+                }
+                
+                if(b == ""){
+                    document.getElementById("phalrt").innerHTML="plz enter ph no"
+                }
+                else
+                if((b.length<10)||(b.length>10)){
+                    document.getElementById("phalrt").innerHTML="ph no should been exact 10 digit"
+                }
+                return false
+            }
+
+        </script>
+    </head>
+    <body bgcolor="grey" ><center>
+        <h1>STUDENT VALIDATION FORM</h1>
+        <hr color=" blue " size="5px">
+        <form onsubmit="return form()">
+        <label>Student_Name:</label>
+        <input type="text" placeholder="enter your name" id="name"><br>
+        <span style="color: red" id="alrt"></span><br>
+        <label>Phone_no:</label>
+        <input type="number" placeholder="enter 10 digit mbl no" id="pass" ><br>
+        <span style="color: aqua" id="phalrt"></span><br>
+        
+        <button >submit</button>
+        </form>
+        <img src="./img1.jpg" width="600" height="250">
+    </center>
+</body>
+</html>

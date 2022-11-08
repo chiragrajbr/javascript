@@ -1,0 +1,27 @@
+<!--practicing document methods-->
+<html>
+    <head>
+        <script>
+            document.write("hello gm")
+            //--to print string without space
+            
+            document.writeln("hello gm")
+            //--to print string with space
+            
+            
+            function innerhtml(){
+                document.getElementById("ih").innerHTML="plz fill the above details"
+                return false
+            }
+            //inner html
+
+            </script>
+    </head>
+    <body>
+        <label>name:</label>
+        <input type="text" ><br><br>
+        
+        <button onclick="return innerhtml()">click here</button><br><br>
+        <span id="ih"></span><br><br>
+    </body>
+</html>
