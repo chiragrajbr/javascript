@@ -13,7 +13,7 @@ class Account{
             console.log("your default balance is",this.amount)
             console.log("******THANK YOU FOR VISITING US**** ")
            }
-           deposite_Amount(added_amt){
+           deposit_Amount(added_amt){
             console.log("*******WELCOME TO SBI ALWAYS FOR YOU*****")
             console.log("deposited amt is",added_amt)
             
@@ -34,7 +34,7 @@ class Account{
 }
 let a=new Account(101,"chirag",200)
 //a.get_Balance()
-a.deposite_Amount(400)
+a.deposit_Amount(400)
 //a.withdrawl_Amount(150)
 
 
