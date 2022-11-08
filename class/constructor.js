@@ -1,4 +1,4 @@
-//class-constructor
+//class-constructor--about atm
 class Account{
            id;
            name;
