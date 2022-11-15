@@ -1,9 +1,13 @@
 //map method-iterating array and executing function
-//it helps to store duplicate arrays or we can re use an array
-let name=["flipcart","samsung","oppo","vivo"]
-name.map((a,y)=>
+//it helps to store duplicate arrays or we can reuse an array
+let names=["flipcart","samsung","oppo","vivo"]
+  let new_name=names.map((name,y)=>
 {
 
-console.log(a,y)
+console.log(name)
+return name
 })
+console.log(new_name)
+//x=it shows array elements
+//y== it shows index
 
