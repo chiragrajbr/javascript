@@ -5,6 +5,8 @@ for(i=0;i<a.length;i++){
         console.log(a[i])
     }
 }
+    
+
 
 //condition applying using filter method -greater than less than modulus any kind of function
 //if we take filter method we must call fat arrow function
