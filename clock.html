@@ -1,0 +1,29 @@
+<html>
+    <head>
+<title>clock</title>
+<script>
+    setInterval(()=>{
+        let date=new Date()
+        document.getElementById("clock").innerHTML=date.getHours()+":"+date.getMinutes()+":"+date.getSeconds()
+
+
+    },[1000])
+    
+</script>
+<style>
+    .one{background-color:black;
+        font-size: large;
+        color: blue;
+        align-content: center;
+        margin-top: 200px;
+        height: 100px;
+        
+
+    }
+</style>
+    </head>
+    <body align="center" class="one" id="clock">
+        
+    
+    </body>
+</html>
