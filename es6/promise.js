@@ -1,3 +1,4 @@
+//aysc draw back  --asyc method execute which has less time
 //asynchronous promise method--use to overcome asynchronous method
 //setting exicuting time and giving some message for success and failure using terneray operator
 //in this promise method used and .then and .catch is teken
