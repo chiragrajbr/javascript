@@ -1,4 +1,4 @@
-//spread operatot---extract and copy
+//spread operator---extract and copy
 //to copy array elements it takes more codes in ES5
 let a=[1,2,34,576,87,9,54]
 let b=[]
