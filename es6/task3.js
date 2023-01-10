@@ -1,3 +1,3 @@
 let person={name:"lydia"};
-const members=[person];
+let members=[person];
 console.log(members);
